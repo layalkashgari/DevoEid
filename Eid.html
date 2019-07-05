@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>عيد الاضحى </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
+
+    <!-- JavaScript -->
+
+
+    <script type="text/javascript"
+        src="http://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js"
+        charset="UTF-8"></script>
+    <link rel="stylesheet" crossorigin="anonymous"
+        href="http://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.7.7/xlsx.core.min.js"></script>
+
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap-RTL-4.1.1-master/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap-RTL-4.1.1-master/bootstrap-rtl.css" />
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
+
+
+
+</head>
+
+<body>
+
+    <header>
+
+    </header>
+
+    <div class="logo d-flex justify-content-around d-flex ">
+        <div class="bg-white col-10 col-md-4 logo1 px-2 py-2">
+            <img class="img-fluid" src="Arabic & English Logo.png">
+        </div>
+    </div>
+
+
+    <div class="container mt-5 text-center">
+        <div class="row justify-content-center">
+            <input id="tt" required class="col-8 col-md-3  form-control" placeholder="ادخل اسمك هنا" maxlength="18"
+                type="text">
+            <button class=" col-4 col-md-2 mx-3 mt-2 mt-md-0  btn btn-danger" onclick="make_base()">OK</button>
+        </div>
+        <!-- <input type="file" id="files" class="" name="files" /> -->
+        <br>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6">
+
+                <image id="theimage" class="img-fluid"></image>
+                <canvas id="viewport" style="
+                width: 100%;
+            " width="430" height="430"></canvas>
+
+            </div>
+
+        </div>
+
+        <a onclick="to_image()" id="downloadbtn" class="downloadbtn" id="aa" download="1.png">
+            <div class="btn btn-danger"><i class="fa fa-download"></i></div>
+        </a>
+        <a onclick="to_image()" class="downloadbtn" id="aa" download="ُEidGA.png">
+            <div class="btn btn-secondary px-5 mt-2">Download</div>
+        </a>
+        <h3 id="eid-Saeed" class="eid-Saeed my-2"> ونقولك عيدك مبارك يا
+            <span id="demo" class="text-secondary font-weight-bold"></span>
+        </h3>
+
+    </div>
+
+
+    <footer>
+        <p> الصفحة غير رسمية</p>
+
+
+    </footer>
+    <!-- <img src="base.jpg" alt=""> -->
+
+
+
+
+
+
+
+    <script src="http://hongru.github.io/proj/canvas2image/canvas2image.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-firestore.js"></script>
+
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyDc3qRNhoWCiKHHMIHPdbJuGl9LxH45g58",
+            authDomain: "crud-d8d3c.firebaseapp.com",
+            databaseURL: "https://crud-d8d3c.firebaseio.com",
+            projectId: "crud-d8d3c",
+            storageBucket: "",
+            messagingSenderId: "110584683911"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script src="main.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+body{
+    font-family: 'Tajawal', sans-serif;
+background-color: #f7485e;
+}
+
+header {
+    position: absolute;
+    height: 80px;
+    margin-bottom: 30px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* background-image: -webkit-linear-gradient( 22deg, rgb(130, 216, 20) 0%, rgb(1,162,60) 100%); */
+    /* color: white; */
+    /* background: #979797; */
+    text-align: center;
+ }
+
+ .logo{
+     text-align: center;
+ }
+ /* .logo1 { */
+     /* border-radius: 0px 0px 8px 8px  ; */
+     /* border-bottom: 7px solid gray;
+    z-index: 100;
+    box-shadow: 2px 2px 6px 0px #979797;; */
+ /* } */
+
+ .logo1 img{
+    width: 230x;
+
+ }
+ .box{
+    min-height: 100px;
+
+}
+.eid-Saeed{
+    /* background-color: #f7485e; */
+
+    color: grey;
+    display: none;
+}
+
+.downloadbtn{
+    display: none;
+}
+footer {
+ 
+    width: 100%;
+    /* background-color: #52baa7; */
+    color: gray;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+
+  }
+
+
+
+
+/* Ø¤Ø´Ù‰Ø±Ø´Ø³ */
+
+
+
+
+canvas#viewport { border: 1px solid gray;
+    display: none;
+/* 
+width: 643px;
+height: 194px; */
+
+}
